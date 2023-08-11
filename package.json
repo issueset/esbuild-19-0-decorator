@@ -1,0 +1,14 @@
+{
+  "name": "pkg-name",
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "build:esbuild:1": "esbuild --outdir=dist/esbuild entry1.ts",
+    "build:esbuild:2": "esbuild --outdir=dist/esbuild entry2.ts",
+    "build:tsc": "tsc --outdir dist/tsc"
+  },
+  "devDependencies": {
+    "typescript": "5.1.6",
+    "esbuild": "0.19.0"
+  }
+}
